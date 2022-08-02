@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-list, .footer-list {
+display: flex;
+justify-content: space-around;
+list-style: none;
+text-decoration: none;
+background-color: burlywood;
+}
