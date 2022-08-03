@@ -11,6 +11,7 @@ function Navbar() {
     <li className="nav-item">nav item</li>
     <button className="sign-up">Sign Up</button>
     <button className="sign-in">Sign In</button>
+    <div className="hamburger">H</div>
    </ul>
    
     </>
