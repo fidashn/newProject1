@@ -2,7 +2,12 @@ import React from 'react';
 
 function SignIn() {
   return (
-    <div>SignIn</div>
+    <div>
+      <form action="">
+        <input type="text" place holder="Email.."/>
+        <input type="text" place holder="Password.."/>
+      </form>
+    </div>
   )
 }
 
