@@ -2,7 +2,18 @@ import React from 'react'
 
 function Cards() {
   return (
-    <div>Cards</div>
+    <div className='cards-wrapper'>
+      <div className="card"></div>
+      <div className="card"></div>
+      <div className="card"></div>
+      <div className="card"></div>
+      <div className="card"></div>
+      <div className="card"></div>
+      <div className="card"></div>
+      <div className="card"></div>
+      <div className="card"></div>
+      <div className="card"></div>
+    </div>
   )
 }
 
