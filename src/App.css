@@ -22,3 +22,8 @@ background-color: burlywood;
   height:300px ;
   background-color: blueviolet;
 }
+
+.sign-in, .sign-up {
+  width: 100px;
+  color: black;
+}
