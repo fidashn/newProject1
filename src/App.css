@@ -14,7 +14,10 @@ background-color: burlywood;
 
 .cards-wrapper {
   display: flex;
-  justify-content: space-between;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 50px;
   border: 3px red solid;
 }
 .card {
