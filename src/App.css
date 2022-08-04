@@ -14,7 +14,7 @@ background-color: burlywood;
 
 .cards-wrapper {
   display: flex;
-
+  margin: 5% 0 5% 0;
   flex-wrap: wrap;
   justify-content: space-around;
   row-gap: 50px;
@@ -25,19 +25,24 @@ background-color: burlywood;
   flex-direction: column;
   justify-content:space-around;
   align-items: center;
-  width:350px;
+  width:320px;
   height:500px ;
   background-color: blueviolet;
 }
+
+.card:hover {
+transform: scale(1.1);
+}
+
 .card p {
   width: 80%;
-  height: 20%;
+  height: 10%;
   background-color: coral;
 }
 
 .card img {
-  width: 80%;
-  height: 50%;
+  width: 90%;
+  height: 70%;
   background-color: coral;
 }
 
