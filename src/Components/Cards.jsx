@@ -3,6 +3,7 @@ import React from 'react'
 function Cards() {
   return (
     <>
+    <h1>My Images</h1>
     <div className='cards-wrapper'>
       <div className="card">Card 1
        <p>title</p>
