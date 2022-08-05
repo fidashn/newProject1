@@ -1,14 +1,17 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
-import Cards from './Components/Cards.jsx';
+import { BrowserRouter, Route, Link } from "react-router-dom";
+import SignUp from './Components/SignUp';
+import SignIn from './Components/SignIn';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Cards />
-      <Footer/>
+      <BrowserRouter >
+      <Route path="/home" component={Home} />
+      <Route path="/signUp" component={SignUp} />
+      <Route exact path="/signIn" component={SignIn} />
+      </BrowserRouter>
     </div>
   );
 }
