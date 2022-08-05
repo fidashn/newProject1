@@ -7,9 +7,11 @@
 .nav-list, .footer-list {
 display: flex;
 justify-content: space-around;
+align-items: center;
 list-style: none;
 text-decoration: none;
 background-color: burlywood;
+height: 50px;
 }
 
 button {
@@ -17,6 +19,7 @@ button {
   background-color: transparent;
   border: 3px tomato solid;
   border-radius: 20px;
+  height: 30px;
 }
 
 button:hover {
