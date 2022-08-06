@@ -76,3 +76,19 @@ transform: scale(1.1);
 .hamburger{
   border: 3px yellow solid;;
 }
+
+.signUpWrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.signUpForm{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 20%;
+height: 200px;
+border: 2px red solid;
+}
