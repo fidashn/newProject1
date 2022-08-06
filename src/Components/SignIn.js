@@ -1,8 +1,12 @@
 import React from 'react';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 function SignIn() {
   return (
-    <div className='signInWrapper'>
+    <>
+    <Navbar />
+      <div className='signInWrapper'>
       <form action="" className='signInForm'>
         Email:
         <input type="text" placeholder="Email.."/>
@@ -10,6 +14,8 @@ function SignIn() {
         <input type="text" placeholder="Password.."/>
       </form>
     </div>
+      <Footer/>
+      </>
   )
 }
 

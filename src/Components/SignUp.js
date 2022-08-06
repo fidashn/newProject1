@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 function SignUp() {
   return (
+    <>
+     <Navbar />
     <div className='signUpWrapper'> 
     <form action="" className='signUpForm'>
     Full Name:
@@ -10,7 +14,10 @@ function SignUp() {
     <input type="text" placeholder="Email.."/>
     Password:
     <input type="text" placeholder="Password.."/>
-  </form></div>
+  </form>
+  </div>
+  <Footer/>
+  </>
   )
 }
 
