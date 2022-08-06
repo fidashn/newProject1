@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.homeWrapper{
+  background-color: rgb(220, 192, 247);
+}
+
 .nav-list, .footer-list {
 display: flex;
 justify-content: space-around;
@@ -99,7 +103,7 @@ border: 2px red solid;
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-  color: rgb(188, 247, 227);
+  background-color: rgb(199, 244, 229);
 }
 
 
@@ -108,7 +112,7 @@ border: 2px red solid;
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-  color:rgb(246, 181, 157);
+  background-color:rgb(248, 201, 184);
 }
 
 

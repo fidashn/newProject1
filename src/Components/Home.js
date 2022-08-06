@@ -5,7 +5,7 @@ import Cards from '../Components/Cards.jsx';
 
 function Home() {
   return (
-    <div>
+    <div className='homeWrapper'>
     <Navbar />
     <Cards />
     <Footer/>
