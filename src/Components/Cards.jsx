@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 function Cards() {
   return (
     <>
     <h1>My Images</h1>
     <div className='cards-wrapper'>
-      <div className="card">Card 1
+      <div className="card" >Card 1
        <p>title</p>
-       <img alt='someText'></img>
+       <img alt='someText' ></img>
       </div>
       <div className="card">Card 2 
       <p>title</p>
