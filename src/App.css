@@ -6,6 +6,8 @@
 
 .homeWrapper{
   background-color: rgb(220, 192, 247);
+  height: 100vh;
+  width: auto;
 }
 
 .nav-list, .footer-list {
