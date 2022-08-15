@@ -7,7 +7,7 @@ function Cards() {
     <div className='cards-wrapper'>
       <div className="card" >Card 1
        <p>title</p>
-       <img alt='someText' ></img>
+       <div className='card1'></div>
       </div>
       <div className="card">Card 2 
       <p>title</p>

@@ -137,3 +137,8 @@ padding: 100px 0 100px 0;
     border-radius: 10px;
 
   }
+
+  .card1{
+    background: url(./Images/card1.jpeg);
+    background-size: cover;
+  }
