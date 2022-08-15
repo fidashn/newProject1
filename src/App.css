@@ -8,6 +8,7 @@
   background-color: rgb(220, 192, 247);
   height: 100vh;
   width: auto;
+  padding: 50px 0 1900px 0;
 }
 
 .nav-list, .footer-list {
@@ -139,6 +140,6 @@ padding: 100px 0 100px 0;
   }
 
   .card1{
-    background: url(./Images/card1.jpeg);
+    background: url(https://www.pexels.com/photo/laiz-zorzetto-13037433/);
     background-size: cover;
   }
