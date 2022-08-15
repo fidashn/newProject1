@@ -56,7 +56,7 @@ margin-top: 2%;
   align-items: center;
   width:320px;
   height:500px ;
-  background-color: blueviolet;
+  background-color: transparent;
 }
 
 .card:hover {
@@ -140,6 +140,8 @@ padding: 100px 0 100px 0;
   }
 
   .card1{
-    background: url(https://www.pexels.com/photo/laiz-zorzetto-13037433/);
+    background: url(../src/Images/card1.jpeg) no-repeat;
     background-size: cover;
+    width:320px;
+    height:500px ;
   }
