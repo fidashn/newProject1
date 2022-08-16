@@ -8,9 +8,9 @@ function SignIn() {
       <div className='signInWrapper'>
       <form action="" className='signInForm'>
         Email:
-        <input type="text" placeholder="Email.."/>
+        <input type="email" placeholder="Email.."/>
         Password:
-        <input type="text" placeholder="Password.."/>
+        <input type="password" placeholder="Password.."/>
       </form>
     </div>
     
