@@ -6,7 +6,7 @@ function Cards() {
     <h1>My Images</h1>
     <div className='cards-wrapper'>
       <div className="card" >Card 1
-       <p>title</p>
+       <p>reading</p>
        <div className='card1'></div>
       </div>
       <div className="card">Card 2 

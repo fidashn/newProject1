@@ -64,9 +64,10 @@ transform: scale(1.1);
 }
 
 .card p {
+  display: flex;
+  justify-content: center;
   width: 80%;
   height: 10%;
-  background-color: coral;
 }
 
 .card img {
