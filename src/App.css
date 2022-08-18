@@ -24,7 +24,7 @@ height: 50px;
 button {
   color: black;
   background-color: transparent;
-  border: 3px tomato solid;
+  border: 3px rgb(243, 170, 157) solid;
   border-radius: 20px;
   height: 30px;
 }
